@@ -1,11 +1,15 @@
 import Image from "next/image";
+
 import { Header } from "./src/components/header";
+import CardPost from "./src/components/CardPost"
+
 
 export default function Home() {
   return (
     <>
       <div className="w-full max-w-280 flex flex-col mx-auto pb-12">
         <Header />
+        {/* Banner principal */}
         <div className="w-full h-full flex gap-8 items-center justify-center">
           <div className="flex flex-1 h-83.5 relative rounded-2xl overflow-hidden">
             <Image
@@ -17,14 +21,22 @@ export default function Home() {
           </div>
           <div className="flex flex-1 h-83.5 flex-col gap-6">
             <h2 className="font-bold text-4xl text-blue-600">Como desenvolver um blog</h2>
-            <p className="text-zinc-600">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quam accusamus culpa voluptas expedita. Temporibus minus atque nostrum et natus! Cum maiores cupiditate laudantium distinctio voluptas, esse saepe assumenda. Vel, ipsa!</p>
+            <p className="text-zinc-600">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quam accusamus culpa voluptas expedita. Temporibus minus atque nostrum et natus! Cum maiores cupiditate laudantium distinctio voluptas, esse saepe assumenda. Vel, ipsa! Temporibus minus atque nostrum et natus! Cum maiores cupiditate laudantium distinctio voluptas, esse saepe assumenda. Vel, ipsa!</p>
             <div>
               <p className="font-bold text-zinc-900">Pedro Vieira</p>
               <p className="text-zinc-600 text-sm">15-12-2025</p>
             </div>
-
           </div>
         </div>
+        <div className="grid grid-cols-3 gap-8 mt-12">
+          <CardPost />
+          <CardPost />
+          <CardPost />
+          <CardPost />
+          <CardPost />
+          <CardPost />
+        </div>
+
       </div>
     </>
   );
