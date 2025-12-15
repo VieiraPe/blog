@@ -1,5 +1,15 @@
+import { Metadata } from "next";
 import { Poppins } from "next/font/google";
 import './globals.css';
+
+
+// 1. INÍCIO DA MODIFICAÇÃO (Adicionando o objeto metadata)
+// Este objeto é lido pelo Next.js para gerar as tags <head>
+export const metadata: Metadata = {  
+  title: 'Blog Test | Projeto Teste',    
+  description: 'Um blog sobre desenvolvimento de software com Next.js e boas práticas.',
+  keywords: ['Next.js', 'React', 'TypeScript', 'Blog'],
+};
 
 const poppins = Poppins({
   weight: ['400', '700'],
