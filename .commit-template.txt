@@ -22,4 +22,3 @@
 # - Não use ponto final
 # - Um commit = uma responsabilidade
 
-feat(): 

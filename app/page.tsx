@@ -1,7 +1,7 @@
 import Image from "next/image";
 
-import {Header} from "./src/header"
-import CardPost from "./src/components/CardPost"
+import {Header} from "../src/header"
+import CardPost from "../src/components/CardPost"
 import Link from "next/link";
 
 
