@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { Header } from "../src/components/header"
+import { Header } from "../src/header"
 import Link from "next/link";
 
 

@@ -1,0 +1,25 @@
+# Tipo(escopo): descrição curta no imperativo
+# Exemplo: feat(home): add featured post section
+
+# Tipos permitidos:
+# feat     → Nova funcionalidade
+# fix      → Correção de bug
+# refactor → Refatoração sem alterar comportamento
+# style    → Estilo / CSS / layout
+# perf     → Performance
+# docs     → Documentação
+# test     → Testes
+# chore    → Manutenção
+# build    → Build / dependências
+# ci       → CI/CD
+
+# Escopos comuns:
+# core, layout, home, blog, devotional, components, seo, styles, graphql
+
+# Regras:
+# - Use verbo no imperativo
+# - Máx. 72 caracteres
+# - Não use ponto final
+# - Um commit = uma responsabilidade
+
+feat(): 
